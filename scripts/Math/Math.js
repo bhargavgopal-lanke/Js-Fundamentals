@@ -36,6 +36,10 @@ x = Math.min(2, 31, 4, 25);
 // how to generate a number in between 1 to 10 using Math.random() method.
 
 // this will give a decimal in between 1 and 10.
-x = Math.random() * 10;
-let y = Math.round(x);
-console.log(y);
+x = Math.random() * 10 + 1;
+let y = Math.floor(x);
+
+// this will give a decimal in between 1 and 100.
+x = Math.random() * 100 + 1;
+let z = Math.floor(x);
+console.log(z);
