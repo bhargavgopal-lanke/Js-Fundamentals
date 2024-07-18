@@ -13,4 +13,12 @@ x = Math.abs(-5);
 
 x = Math.round(4.4);
 
+// if the round figure value is anything in between 0.1 to 0.9 Math.ceil() method always give high round figure value
+
+x = Math.ceil(4.1);
+
+// if the decimal value is in between .1 to .9 Math.floor() method always returns the lowest decimal value
+
+x = Math.floor(2.1);
+
 console.log(x);
