@@ -37,5 +37,5 @@ x = Math.min(2, 31, 4, 25);
 
 // this will give a decimal in between 1 and 10.
 x = Math.random() * 10;
-
-console.log(x);
+let y = Math.round(x);
+console.log(y);
