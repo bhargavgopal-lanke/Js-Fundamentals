@@ -22,6 +22,7 @@ x = Math.ceil(4.1);
 x = Math.floor(4.9);
 
 // power in math
+// return the value to x to the power of y  (x, y)
 
 x = Math.pow(2, 5); // 32
 
