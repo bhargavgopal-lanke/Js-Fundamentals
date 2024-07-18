@@ -25,4 +25,12 @@ x = Math.floor(4.9);
 
 x = Math.pow(2, 5); // 32
 
+// find the max number which are passed inside the Math.max() method.
+
+x = Math.max(2, 31, 4, 25);
+
+// find the min number which are passed inside the Math.min() method.
+
+x = Math.min(2, 31, 4, 25);
+
 console.log(x);
