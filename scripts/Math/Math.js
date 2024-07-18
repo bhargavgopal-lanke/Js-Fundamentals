@@ -19,6 +19,6 @@ x = Math.ceil(4.1);
 
 // if the decimal value is in between .1 to .9 Math.floor() method always returns the lowest decimal value
 
-x = Math.floor(2.1);
+x = Math.floor(4.9);
 
 console.log(x);
