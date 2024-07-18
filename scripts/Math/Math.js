@@ -21,4 +21,8 @@ x = Math.ceil(4.1);
 
 x = Math.floor(4.9);
 
+// power in math
+
+x = Math.pow(2, 5); // 32
+
 console.log(x);
