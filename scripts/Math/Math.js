@@ -19,6 +19,8 @@ x = Math.ceil(4.1);
 
 // if the decimal value is in between .1 to .9 Math.floor() method always returns the lowest decimal value
 
+// Math.floor() function will round a decimal to the nearest integer
+
 x = Math.floor(4.9);
 
 // power in math
