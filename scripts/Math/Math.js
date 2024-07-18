@@ -33,4 +33,9 @@ x = Math.max(2, 31, 4, 25);
 
 x = Math.min(2, 31, 4, 25);
 
+// how to generate a number in between 1 to 10 using Math.random() method.
+
+// this will give a decimal in between 1 and 10.
+x = Math.random() * 10;
+
 console.log(x);
