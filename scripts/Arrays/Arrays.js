@@ -36,3 +36,30 @@ fruits[fruits.length] = "Peach";
 console.log(fruits);
 console.log("fruits.length", fruits.length);
 console.log("array.length", x);
+
+// array methods to manipulate the current array
+
+// push method adds the item to end of an array
+array.push(99);
+
+// pop method remove the item at end of an array
+array.pop();
+
+// unshift method adds the item at begining of an array
+array.unshift(22);
+
+// shift method adds remove item at begining of an array
+array.shift();
+
+// // reverse the current array
+
+arr.reverse();
+
+// check if an items exists in the array
+// this returns an boolean value
+
+let y = arr.includes(20);
+
+// find the index of an element using indexOf() method
+
+let res = arr.indexOf(71);
