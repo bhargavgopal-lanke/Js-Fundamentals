@@ -26,5 +26,7 @@ const berries = ["strawberry", "blueberry", "rasberry"];
 
 // nesting the arrays
 newFruits.push(berries);
+// to access the items inside an nested array
+let nestArrays = newFruits[3][1];
 
-console.log("newFruits", newFruits);
+console.log("newFruits", nestArrays);
