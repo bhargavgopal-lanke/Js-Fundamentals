@@ -43,7 +43,6 @@ d = Intl.DateTimeFormat("en-US").format(x); // 7/19/2024
 d = Intl.DateTimeFormat("en-GB").format(x);
 
 // using default get the full Month
-
 d = Intl.DateTimeFormat("default", { month: "long" }).format(x);
 
 
