@@ -21,12 +21,19 @@ x = arr.splice(1, 4).reverse().toLocaleString().charAt(6);
 // console.log("x => ", x);
 // console.log("res", res);
 
+let n;
 const newFruits = ["apple", "pear", "guava"];
 const berries = ["strawberry", "blueberry", "rasberry"];
 
 // nesting the arrays
 newFruits.push(berries);
 // to access the items inside an nested array
-let nestArrays = newFruits[3][1];
+n = newFruits[3][1];
 
-console.log("newFruits", nestArrays);
+let allFruits = [newFruits, berries];
+
+n = allFruits[1][0];
+
+n = newFruits.concat(berries);
+
+console.log("newFruits", n);
