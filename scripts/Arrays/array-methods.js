@@ -18,5 +18,13 @@ x = arr.slice(1, 4);
 // chaning the array methods
 x = arr.splice(1, 4).reverse().toLocaleString().charAt(6);
 
-console.log("x => ", x);
-console.log("res", res);
+// console.log("x => ", x);
+// console.log("res", res);
+
+const newFruits = ["apple", "pear", "guava"];
+const berries = ["strawberry", "blueberry", "rasberry"];
+
+// nesting the arrays
+newFruits.push(berries);
+
+console.log("newFruits", newFruits);
