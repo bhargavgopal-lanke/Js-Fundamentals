@@ -23,4 +23,18 @@ x = obj.address["state"];
 x = obj.hobbies;
 x = obj.hobbies[0];
 
+// updating the object
+
+obj.isAdmin = false;
+obj.address.city = "Andhra Pradesh";
+
+delete obj.hobbies;
+
+obj.newfunction = function () {
+  console.log(`hello my name is ${this.name}`);
+};
+
+obj.newfunction();
+x = obj;
+
 console.log("obj", x);
