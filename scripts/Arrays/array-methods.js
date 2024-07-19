@@ -29,4 +29,17 @@ let y = arr.includes(20);
 
 let res = arr.indexOf(71);
 
+// the first parameter of slice is the start index value
+// and the second parameter is the last index value
+// it gives the remaining values of the array from that position
+// slice doesn't modify the existing array and returns the new array
+x = arr.slice(1, 4);
+
+// using splice we can remove an single element from ana arry
+// firts parameter is the index position of the array.
+// second parameter gives the number of values to be removed.
+// it modifies the existing array
+x = arr.splice(3, 1);
+
+console.log("x", x);
 console.log("res", res);
