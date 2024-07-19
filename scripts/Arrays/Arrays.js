@@ -53,13 +53,13 @@ array.shift();
 
 // // reverse the current array
 
-arr.reverse();
+array.reverse();
 
 // check if an items exists in the array
 // this returns an boolean value
 
-let y = arr.includes(20);
+let y = array.includes(20);
 
 // find the index of an element using indexOf() method
 
-let res = arr.indexOf(71);
+let res = array.indexOf(71);
