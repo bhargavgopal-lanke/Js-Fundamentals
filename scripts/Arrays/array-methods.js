@@ -26,14 +26,18 @@ const newFruits = ["apple", "pear", "guava"];
 const berries = ["strawberry", "blueberry", "rasberry"];
 
 // nesting the arrays
-newFruits.push(berries);
+// newFruits.push(berries);
 // to access the items inside an nested array
-n = newFruits[3][1];
+// n = newFruits[3][1];
 
 let allFruits = [newFruits, berries];
 
 n = allFruits[1][0];
 
 n = newFruits.concat(berries);
+
+// spread operator (...spread)
+
+n = [...newFruits, ...berries];
 
 console.log("newFruits", n);
