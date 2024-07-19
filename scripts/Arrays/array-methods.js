@@ -40,4 +40,9 @@ n = newFruits.concat(berries);
 
 n = [...newFruits, ...berries];
 
+// flatten arrays
+
+const flattenArr = [1, 2, [3, 4], 5, [6, 7]];
+n = flattenArr.flat();
 console.log("newFruits", n);
+console.log("flattenArr", flattenArr);
