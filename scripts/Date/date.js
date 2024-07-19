@@ -32,4 +32,19 @@ d = x.getMilliseconds();
 //  getting the todays date
 d = `${x.getFullYear()}-${x.getMonth() + 1}-${x.getDate()}`;
 
+console.log("x", x);
+console.log("x1", new Date());
+// current date in US format
+// in US date format month comes first
+d = Intl.DateTimeFormat("en-US").format(x); // 7/19/2024
+
+// In GB format I'll get the date first
+// this is Indian date format
+d = Intl.DateTimeFormat("en-GB").format(x);
+
+// using default get the full Month
+
+d = Intl.DateTimeFormat("default", { month: "long" }).format(x);
+
+
 console.log(d);
