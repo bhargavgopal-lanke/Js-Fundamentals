@@ -26,4 +26,26 @@ const obj5 = { ...obj3, ...obj4 };
 
 t = obj5;
 
+const obj6 = Object.assign({}, obj3, obj4);
+
+t = obj6;
+// array of objects
+
+const todos = [
+  {
+    id: 1,
+    name: "buy milk",
+  },
+  {
+    id: 2,
+    name: "Pickup kids from school",
+  },
+  {
+    id: 3,
+    name: "Take out trash",
+  },
+];
+
+t = todos[0].name;
+
 console.log("t", t);
