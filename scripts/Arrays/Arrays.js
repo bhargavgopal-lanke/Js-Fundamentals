@@ -24,11 +24,15 @@ x = array.length;
 
 // Adding the items in an array
 
-fruits[4] = "pineapple";
+fruits[4] = "Pineapple";
 
 // Updating the existing items in an array
 
 fruits[2] = "Pomegranate";
 
+fruits[fruits.length] = "Blueberry";
+fruits[fruits.length] = "Peach";
+
 console.log(fruits);
-console.log(x);
+console.log("fruits.length", fruits.length);
+console.log("array.length", x);
