@@ -8,8 +8,6 @@ const array = [12, 14, 16, 20, 25];
 
 const fruits = new Array("apple", "banana", "grape", "orange");
 
-console.log(fruits);
-
 x = array[1];
 
 // concatinating the arrays
@@ -20,4 +18,17 @@ x = array[0] + array[4];
 
 x = `My favourite fruit is ${fruits[0]}`;
 
+// get the length of an array
+
+x = array.length;
+
+// Adding the items in an array
+
+fruits[4] = "pineapple";
+
+// Updating the existing items in an array
+
+fruits[2] = "Pomegranate";
+
+console.log(fruits);
 console.log(x);
