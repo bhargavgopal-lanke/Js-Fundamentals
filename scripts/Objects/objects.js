@@ -35,6 +35,14 @@ obj.newfunction = function () {
 };
 
 obj.newfunction();
-x = obj;
+
+const obj2 = {
+  "first Name": "Gopal",
+  "Last Name": "Lanke",
+};
+
+x = obj2["first Name"];
+x = obj2["Last Name"];
+
 
 console.log("obj", x);
