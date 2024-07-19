@@ -2,10 +2,10 @@
 
 const challengeArray = [1, 2, 3, 4, 5];
 
-challengeArray.push(0);
-challengeArray.unshift(6);
+challengeArray.push(6);
+challengeArray.unshift(0);
 
-console.log("challenge 1 =>", challengeArray);
+console.log("challenge 1 =>", challengeArray.reverse());
 
 // combine arr1 and arr2 into a new array arr3
 
