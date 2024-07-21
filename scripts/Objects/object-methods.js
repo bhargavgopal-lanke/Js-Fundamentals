@@ -48,4 +48,8 @@ const todos = [
 
 t = todos[0].name;
 
+t = Object.keys(objCons);
+
+// t = Object.keys(objCons).length;
+
 console.log("t", t);
