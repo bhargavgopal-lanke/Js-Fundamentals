@@ -6,8 +6,6 @@ objCons.id = "1";
 objCons.name = "Bhargav";
 objCons.todo = "Buy Groceries";
 
-console.log("objCons", objCons);
-
 const person = {
   address: {
     coords: {
@@ -48,4 +46,16 @@ const todos = [
 
 t = todos[0].name;
 
+t = Object.keys(objCons);
+
+t = Object.keys(objCons).length;
+
+t = Object.values(objCons);
+
+// has method in objects to check if  it's having that specific property and returns a boolean value
+
+t = objCons.hasOwnProperty("name");
+
 console.log("t", t);
+
+console.log("objCons", objCons);
