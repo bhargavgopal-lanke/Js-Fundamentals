@@ -27,4 +27,12 @@ const {
   user: { name },
 } = desTodo;
 
-console.log("desTodo", name);
+console.log("Object Des", name);
+
+// Destruture arrays
+
+const desArray = [23, 67, 33, 49];
+
+const [one, two, three, four] = desArray;
+
+console.log("Array Des", four);
