@@ -16,8 +16,15 @@ console.log("desObj", desObj.age);
 const desTodo = {
   id: 1,
   title: "take out trash",
+  user: {
+    name: "Bhargav",
+  },
 };
 
-const { id, title } = desTodo;
+const {
+  id,
+  title,
+  user: { name },
+} = desTodo;
 
-console.log("desTodo", title);
+console.log("desTodo", name);
