@@ -10,3 +10,14 @@ const desObj = {
 };
 
 console.log("desObj", desObj.age);
+
+// destructuring
+
+const desTodo = {
+  id: 1,
+  title: "take out trash",
+};
+
+const { id, title } = desTodo;
+
+console.log("desTodo", title);
