@@ -31,8 +31,8 @@ console.log("Object Des", name);
 
 // Destruture arrays
 
-const desArray = [23, 67, 33, 49];
+const desArray = [23, 67, 33, 49, 52, 60];
 
-const [one, two, three, four] = desArray;
+const [one, two, ...rest] = desArray;
 
-console.log("Array Des", four);
+console.log("array destructuring ", one, rest);
