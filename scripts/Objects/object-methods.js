@@ -52,6 +52,9 @@ t = Object.keys(objCons).length;
 
 t = Object.values(objCons);
 
+// return the key value pair of an object
+t = Object.entries(objCons);
+
 // has method in objects to check if  it's having that specific property and returns a boolean value
 
 t = objCons.hasOwnProperty("name");

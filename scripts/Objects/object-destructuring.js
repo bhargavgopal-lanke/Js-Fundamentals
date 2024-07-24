@@ -31,8 +31,32 @@ console.log("Object Des", name);
 
 // Destruture arrays
 
-const desArray = [23, 67, 33, 49];
+const desArray = [23, 67, 33, 49, 52, 60];
 
-const [one, two, three, four] = desArray;
+const [one, two, ...nums] = desArray;
 
-console.log("Array Des", four);
+console.log("array destructuring ", one, nums);
+
+// json.stringify
+
+const post = [
+  {
+    id: 1,
+    name: "Bhargav",
+    user: "test",
+  },
+  {
+    id: 2,
+    name: "Gopal",
+    user: "test",
+  },
+];
+
+// coverts the object data into json data
+const str = JSON.stringify(post);
+
+// convert the JSON data to object data
+const parse = JSON.parse(str);
+console.log("str", str);
+console.log("parse", parse);
+console.log("destructure", post[0].name);
