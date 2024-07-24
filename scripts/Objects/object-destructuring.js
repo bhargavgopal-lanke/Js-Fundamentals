@@ -48,4 +48,7 @@ const post = {
 // coverts the object data into json data
 const str = JSON.stringify(post);
 
+// convert the JSON data to object data
+const parse = JSON.parse(str);
 console.log("str", str);
+console.log("parse", parse);
