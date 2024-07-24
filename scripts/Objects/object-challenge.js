@@ -1,6 +1,6 @@
 const library = [
   {
-    mask: "title",
+    masktitle: "title to first road",
     author: "author",
     status: {
       own: true,
@@ -38,21 +38,14 @@ const library = [
 ];
 
 // set the reading value to true
-
-let { masktitle } = library[0];
-
-masktitle = "first book";
+// set the masktitle destructure variable name to firstBook
+let { masktitle: firstBook } = library[0];
 // reading = true;
 
-console.log("title", masktitle);
+console.log("title", firstBook);
 // console.log("reading", reading);
 // console.log("library", library);
 
-let challenge1 = library[0].title;
-
-challenge1 = "First Name";
-
-console.log("challenge1", challenge1);
 
 library[0].status.reading = true;
 library[1].status.reading = true;
