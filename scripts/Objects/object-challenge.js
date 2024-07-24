@@ -1,6 +1,6 @@
 const library = [
   {
-    title: "title",
+    mask: "title",
     author: "author",
     status: {
       own: true,
@@ -9,7 +9,7 @@ const library = [
     },
   },
   {
-    title: "title1",
+    masktitle: "title1",
     author: "author1",
     status: {
       own: true,
@@ -18,7 +18,7 @@ const library = [
     },
   },
   {
-    title: "title2",
+    mask: "title2",
     author: "author2",
     status: {
       own: true,
@@ -27,7 +27,7 @@ const library = [
     },
   },
   {
-    title: "title3",
+    mask: "title3",
     author: "author3",
     status: {
       own: true,
@@ -39,15 +39,12 @@ const library = [
 
 // set the reading value to true
 
-// let {
-//   title,
-//   status: { own, reading, read },
-// } = library;
+let { masktitle } = library[0];
 
-// title = "first book";
+masktitle = "first book";
 // reading = true;
 
-// console.log("title", title);
+console.log("title", masktitle);
 // console.log("reading", reading);
 // console.log("library", library);
 
@@ -57,8 +54,8 @@ challenge1 = "First Name";
 
 console.log("challenge1", challenge1);
 
-let challenge2 = library[0].status.reading;
+library[0].status.reading = true;
+library[1].status.reading = true;
+library[2].status.reading = true;
 
-challenge2 = true;
-
-console.log("challenge2", challenge2);
+console.log("library", library);
