@@ -39,11 +39,18 @@ console.log("array destructuring ", one, nums);
 
 // json.stringify
 
-const post = {
-  id: 1,
-  name: "Bhargav",
-  user: "test",
-};
+const post = [
+  {
+    id: 1,
+    name: "Bhargav",
+    user: "test",
+  },
+  {
+    id: 2,
+    name: "Gopal",
+    user: "test",
+  },
+];
 
 // coverts the object data into json data
 const str = JSON.stringify(post);
@@ -52,3 +59,4 @@ const str = JSON.stringify(post);
 const parse = JSON.parse(str);
 console.log("str", str);
 console.log("parse", parse);
+console.log("destructure", post[0].name);
