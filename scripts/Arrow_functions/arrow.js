@@ -64,3 +64,11 @@ const filterCompanies = companies.filter(
 );
 
 console.log("filterCompanies", filterCompanies);
+
+// companies that lasted 10 years or more
+
+const longCompanies = companies.filter(
+  (companies) => companies.end - companies.Start >= 10
+);
+
+console.log("longCompanies", longCompanies);
