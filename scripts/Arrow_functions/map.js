@@ -48,6 +48,6 @@ console.log("companyYears", companyYears);
 
 const squareAndDouble = array
   .map((x) => Math.sqrt(x))
-  .map((y) => Math.floor(y * 2));
+  .map((x) => Math.floor(x * 2));
 
 console.log("squareAndDouble", squareAndDouble);
