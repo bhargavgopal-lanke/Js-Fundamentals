@@ -56,3 +56,11 @@ const filterNames = companies.filter(
 );
 
 console.log("filterNames", filterNames);
+
+// get companies that started in or after 1980 and ended in or before 2005
+
+const filterCompanies = companies.filter(
+  (companies) => companies.Start >= 1980 && companies.end <= 2005
+);
+
+console.log("filterCompanies", filterCompanies);
