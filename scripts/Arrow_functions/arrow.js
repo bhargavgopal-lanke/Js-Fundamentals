@@ -72,3 +72,16 @@ const longCompanies = companies.filter(
 );
 
 console.log("longCompanies", longCompanies);
+
+// even numbers usng for each
+
+const evenArray = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let evenItems = [];
+evenArray.forEach((x) => {
+  if (x % 2 == 0) {
+    evenItems.push(x);
+  }
+});
+
+console.log("evenItems", evenItems);
