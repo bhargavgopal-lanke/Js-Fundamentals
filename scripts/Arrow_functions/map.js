@@ -71,3 +71,14 @@ console.log("doubleItem", doubleItem);
 const companyMap = companies1.map((x) => x.name);
 
 console.log("companyMap", companyMap);
+
+// create an array with just company and category
+
+const companyandCategory = companies1.map((x) => {
+  return {
+    name: x.name,
+    ctaegory: x.Category,
+  };
+});
+
+console.log("companyandCategory", companyandCategory);
