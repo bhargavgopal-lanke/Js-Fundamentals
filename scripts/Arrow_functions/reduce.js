@@ -37,7 +37,7 @@ const people = [
 ];
 
 // find the persons age whose age is less than 25
-
+// challenge 1
 const age25 = people
   .filter((x) => x.age <= 25)
   .map((x) => ({
@@ -46,3 +46,17 @@ const age25 = people
   }));
 
 console.log("age25>>>>>>>>>", age25);
+
+// challenge 2
+// calculate the numbers which are greater than zero
+
+const numbersReduce = [2, -30, 50, 20, -12, -9, 7];
+
+const positiveSum = numbersReduce
+  .filter((x) => x > 0)
+  .reduce((acc, curr) => {
+    acc += curr;
+    return acc;
+  }, 0);
+
+console.log("positiveSum", positiveSum);
