@@ -82,3 +82,15 @@ const companyandCategory = companies1.map((x) => {
 });
 
 console.log("companyandCategory", companyandCategory);
+
+// create an array of the length of each comany in years
+
+const companyYears = companies1.map((companies) => {
+  let years = companies.end - companies.Start;
+  return {
+    name: companies.name,
+    years,
+  };
+});
+
+console.log("companyYears", companyYears);
