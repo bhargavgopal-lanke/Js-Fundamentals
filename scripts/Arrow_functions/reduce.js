@@ -60,3 +60,14 @@ const positiveSum = numbersReduce
   }, 0);
 
 console.log("positiveSum", positiveSum);
+
+// challenge 3
+// capitalie the text in the array
+
+const captialArray = ["coder", "programmer", "developer"];
+
+const capitalArrValue = captialArray.map((x) => {
+  return x[0].toUpperCase() + x.slice(1, x.length);
+});
+
+console.log("capitalArrValue", capitalArrValue);
