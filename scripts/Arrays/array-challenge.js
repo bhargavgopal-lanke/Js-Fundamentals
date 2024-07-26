@@ -30,4 +30,25 @@ const user = {
   name: "Bhargav",
 };
 
-console.log(loginUser(user));
+// console.log(loginUser(user));
+console.log(
+  loginUser({
+    id: 2,
+    name: "Gopal",
+  })
+);
+
+// arrays as params
+
+const userArray = [];
+
+function sumUsers(...numbers) {
+  let total = 0;
+
+  for (const i of numbers) {
+    total += i;
+  }
+  return total;
+}
+
+console.log(sumUsers(1, 2, 3, 4, 5, 6));
