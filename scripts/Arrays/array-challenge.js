@@ -19,3 +19,15 @@ arr2.splice(0, 1);
 arr3 = [...arr1, ...arr2];
 
 console.log("challenge 2 =>", arr3);
+
+// object as params
+function loginUser(user) {
+  return `The user ${user.name} with the id of ${user.id} is logged in`;
+}
+
+const user = {
+  id: 1,
+  name: "Bhargav",
+};
+
+console.log(loginUser(user));
