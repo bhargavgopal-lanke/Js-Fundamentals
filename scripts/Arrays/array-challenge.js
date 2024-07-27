@@ -38,9 +38,7 @@ console.log(
   })
 );
 
-// arrays as params
-
-const userArray = [];
+// sum the params passed into the function
 
 function sumUsers(...numbers) {
   let total = 0;
@@ -52,3 +50,16 @@ function sumUsers(...numbers) {
 }
 
 console.log(sumUsers(1, 2, 3, 4, 5, 6));
+
+// arrays as params
+
+const userArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function getRandom(arr) {
+  const randomIndex = Math.floor(Math.random() * arr.length);
+  console.log("randomIndex", randomIndex);
+  const item = arr[randomIndex];
+  console.log(item);
+}
+
+getRandom(userArray);
