@@ -14,6 +14,8 @@ function calculator(num1, num2, operator) {
     case "/":
       result = num1 / num2;
       break;
+    default:
+      result = "Invalid Operator";
   }
   return result;
 }
