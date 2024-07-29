@@ -109,3 +109,15 @@ if (Object.keys(user).length > 0) {
 } else {
   console.log("no user");
 }
+
+// loose equality
+
+console.log(null == 0); // ==>  this returns false
+console.log("" == 0); // ==>  this returns false
+console.log(false == 0); // ==>  this returns false
+
+// === will check type and value
+// it'll check strict
+console.log(null === 0); // ==>  this returns truthy
+console.log("" === 0); // ==>  this returns truthy
+console.log(false === 0); // ==>  this returns truthy
