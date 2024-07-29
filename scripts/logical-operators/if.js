@@ -45,6 +45,9 @@ console.log(expect(5));
 
 const email = "test@test.com";
 
+// a string with anything in it is a truthy value
 if (email) {
   console.log("you passed in an email");
 }
+
+console.log(Boolean(email));
