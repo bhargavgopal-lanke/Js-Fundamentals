@@ -214,3 +214,19 @@ if (g === null || g === undefined) {
 g = g ?? 10;
 
 console.log("g", g);
+
+// ternary operator
+
+const age = 19;
+
+// using an if statement
+
+if (age >= 18) {
+  console.log("You can vote!");
+} else {
+  console.log("You cant vote");
+}
+
+let res = age > 18 ? "You can vote" : "You can't vote";
+
+console.log("age ternary result", res);
