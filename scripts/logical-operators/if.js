@@ -136,3 +136,23 @@ a = 10 && 0 && 30;
 
 // we have 3 values here if none of them are false it'll return the true value
 console.log("a1123", a);
+
+// check the array length greater than zero or not and do something
+
+const posts1 = [];
+
+posts1.length > 0 && console.log("posts", posts1[0]);
+
+// OR operator
+
+// it'll return the first truthy value or the last value
+
+let b;
+
+b = 10 || 20;
+
+b = 0 || 20;
+
+b = 0 || null || "123" || undefined;
+
+console.log(b);
