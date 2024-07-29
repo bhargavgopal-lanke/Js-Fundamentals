@@ -71,3 +71,44 @@ const capitalArrValue = captialArray.map((x) => {
 });
 
 console.log("capitalArrValue", capitalArrValue);
+
+// reduce practice.
+
+// convert object into an array
+let arr = ["Bhargav", "24", "Sai", "24", "Gopal", "27"];
+
+let emptyArray = [];
+let arrObject = arr.reduce((acc, curr) => {
+  let key;
+  let val;
+
+  emptyArray.push(curr);
+
+  for (let i = 0; i < emptyArray.length; i++) {
+    key = emptyArray[i];
+    val = emptyArray[++i];
+  }
+
+  acc[key] = val;
+  return acc;
+}, {});
+
+console.log("arrObject", arrObject);
+
+// convert array into objects other way
+
+const keyValuePairs = [
+  ["username", "Bhargav"],
+  ["membership", "1996-05-05"],
+  ["age", 27],
+];
+
+const keyValueReduce = keyValuePairs.reduce((acc, curr) => {
+  let key = curr[0];
+  let val = curr[1];
+
+  acc[key] = val;
+  return acc;
+}, {});
+
+console.log("keyValueReduce", keyValueReduce);
