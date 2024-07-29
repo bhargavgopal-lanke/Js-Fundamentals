@@ -172,3 +172,7 @@ c = 0 ?? 30;
 // c = '' ?? 30;
 
 console.log("c", c);
+
+// || => assigns the right side value only if the left value is a falsy value.
+// && => assigns the right side value only if the left value is a truthy value.
+// ?? => assigns the right side value only if the left value is null or undefined.
