@@ -228,7 +228,8 @@ if (age >= 18) {
 }
 
 // using an ternary operator
+// Assigning a conditional value to a varibale
 
-let res = age >= 18 ? "You can vote" : "You can't vote";
+let canVote = age >= 18 ? "You can vote!" : "You can't vote";
 
-console.log("age ternary result", res);
+console.log("age ternary result", canVote);
