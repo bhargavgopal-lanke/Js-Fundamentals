@@ -51,3 +51,19 @@ if (email) {
 }
 
 console.log(Boolean(email));
+
+// falsy values in javascript
+// - false
+// - 0
+// - "" or '' an empty string
+// - null
+// - undefined
+// - nan
+
+const z = '';
+
+if (z) {
+  console.log("this is truthy");
+} else {
+  console.log("this is falsy");
+}
