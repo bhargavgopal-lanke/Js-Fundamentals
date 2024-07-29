@@ -121,3 +121,18 @@ console.log(false == 0); // ==>  this returns false
 console.log(null === 0); // ==>  this returns truthy
 console.log("" === 0); // ==>  this returns truthy
 console.log(false === 0); // ==>  this returns truthy
+
+// logical and / or operator
+
+console.log(10 < 20 && 30 > 15 && 40 > 30);
+console.log(10 > 20 || 30 < 15);
+
+// && - will return first falsy value or the last value
+let a;
+
+a = 10 && 20 && 30;
+// if it have a false value it'll return that value i.e: 0
+a = 10 && 0 && 30;
+
+// we have 3 values here if none of them are false it'll return the true value
+console.log("a1123", a);
