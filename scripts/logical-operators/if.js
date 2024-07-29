@@ -155,4 +155,20 @@ b = 0 || 20;
 
 b = 0 || null || "123" || undefined;
 
-console.log(b);
+console.log("b", b);
+
+// Nullish Opearator => ??
+
+// ?? - returns the right side operand when the left side is null or undefined.
+
+let c;
+
+c = 10 ?? 20;
+
+c = undefined ?? 30;
+
+c = 0 ?? 30;
+
+// c = '' ?? 30;
+
+console.log("c", c);
