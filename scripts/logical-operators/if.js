@@ -77,3 +77,13 @@ if (z) {
 } else {
   console.log("this is falsy");
 }
+
+// truthy and falsy caveats
+
+const children = 1;
+
+if (children) {
+  console.log(`You have ${children} children`);
+} else {
+  console.log("please enter number of children");
+}
