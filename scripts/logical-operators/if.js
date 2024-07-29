@@ -93,7 +93,19 @@ if (!isNaN(children)) {
 const posts = [];
 
 if (posts) {
-  console.log('Posts');
+  console.log("Posts");
 } else {
   console.log("No posts to list");
+}
+
+// checking for empty objects
+
+const user = {
+  name: "bhargav",
+};
+
+if (Object.keys(user).length > 0) {
+  console.log("List user");
+} else {
+  console.log("no user");
 }
