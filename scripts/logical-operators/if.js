@@ -217,7 +217,7 @@ console.log("g", g);
 
 // ternary operator
 
-const age = 19;
+const age = 17;
 
 // using an if statement
 
@@ -231,5 +231,25 @@ if (age >= 18) {
 // Assigning a conditional value to a varibale
 
 let canVote = age >= 18 ? "You can vote!" : "You can't vote";
+let canVote1 = age >= 18 ? true : false;
 
-console.log("age ternary result", canVote);
+console.log("canVote", canVote);
+
+// Multiple statements
+
+const auth = true;
+let redirect;
+
+// if (auth) {
+//   alert("welcome to the dashboard");
+//   redirect = "/dashboard";
+// } else {
+//   alert("Access Denied");
+//   redirect = "/login";
+// }
+
+const redirect1 = auth
+  ? (alert("welcome to the dashboard"), (redirect = "/dashboard"))
+  : (alert("Access Denied"), (redirect = "/login"));
+
+console.log(redirect1);
