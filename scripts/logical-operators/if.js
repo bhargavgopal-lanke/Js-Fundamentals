@@ -202,3 +202,15 @@ f &&= 20;
 console.log("f", f);
 
 // ?? => assigns the right side value only if the left value is null or undefined.
+
+let g = 10;
+
+if (g) {
+  g = 20;
+}
+
+// if the left side value is null || undfined it'll return the right side.
+
+g = undefined ?? 10;
+
+console.log("g", g);
