@@ -227,6 +227,8 @@ if (age >= 18) {
   console.log("You cant vote");
 }
 
-let res = age > 18 ? "You can vote" : "You can't vote";
+// using an ternary operator
+
+let res = age >= 18 ? "You can vote" : "You can't vote";
 
 console.log("age ternary result", res);
