@@ -42,3 +42,9 @@ var expect = function (val) {
 };
 
 console.log(expect(5));
+
+const email = "test@test.com";
+
+if (email) {
+  console.log("you passed in an email");
+}
