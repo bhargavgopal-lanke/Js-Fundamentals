@@ -60,7 +60,17 @@ console.log(Boolean(email));
 // - undefined
 // - nan
 
-const z = '';
+// truthy values in javascript
+
+// - everthing that is not falsy
+// - true
+// - '0' => 0 in an empty string
+// - 'false'   a string with any value in it
+// -  [] => an empty array is also truthy
+// -  {} => an empty object is also truthy
+// - function() => an empty function is also truthy
+
+const z = "";
 
 if (z) {
   console.log("this is truthy");
