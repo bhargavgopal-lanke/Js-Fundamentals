@@ -1,3 +1,7 @@
+for ([initialExpression]; [conditionExpression]; [incerementExpression]) {
+  statement;
+}
+
 // Initial Expression - Initialises a variable/counter
 // Condition Expression - Condition that the loop will continue to run
 // as long as it is met or until the condition is false.
