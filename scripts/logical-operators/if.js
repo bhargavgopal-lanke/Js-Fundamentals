@@ -174,5 +174,18 @@ c = 0 ?? 30;
 console.log("c", c);
 
 // || => assigns the right side value only if the left value is a falsy value.
+
+let e = false;
+
+// ! not means if it's false then only return this.
+if (!e) {
+  e = 10;
+}
+
+// both the above and below code are same.
+e = e || 10;
+
+console.log("e", e);
+
 // && => assigns the right side value only if the left value is a truthy value.
 // ?? => assigns the right side value only if the left value is null or undefined.
