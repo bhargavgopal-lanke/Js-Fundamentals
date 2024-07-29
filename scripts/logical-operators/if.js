@@ -203,14 +203,14 @@ console.log("f", f);
 
 // ?? => assigns the right side value only if the left value is null or undefined.
 
-let g = 10;
+let g = null;
 
-if (g) {
+if (g === null || g === undefined) {
   g = 20;
 }
 
 // if the left side value is null || undfined it'll return the right side.
 
-g = undefined ?? 10;
+g = g ?? 10;
 
 console.log("g", g);
