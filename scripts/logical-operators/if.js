@@ -80,10 +80,20 @@ if (z) {
 
 // truthy and falsy caveats
 
-const children = 1;
-
-if (children) {
+const children = 4;
+// for 0 if children is not an number
+if (!isNaN(children)) {
   console.log(`You have ${children} children`);
 } else {
   console.log("please enter number of children");
+}
+
+// checking for empty arrays
+
+const posts = [];
+
+if (posts) {
+  console.log('Posts');
+} else {
+  console.log("No posts to list");
 }
