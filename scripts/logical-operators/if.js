@@ -183,9 +183,22 @@ if (!e) {
 }
 
 // both the above and below code are same.
-e = e || 10;
+e = 20 || 10;
 
 console.log("e", e);
 
 // && => assigns the right side value only if the left value is a truthy value.
+
+let f = 10;
+
+if (f) {
+  f = 20;
+}
+
+f = f && 20;
+
+f &&= 20;
+
+console.log("f", f);
+
 // ?? => assigns the right side value only if the left value is null or undefined.
