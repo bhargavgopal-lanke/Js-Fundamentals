@@ -46,3 +46,17 @@ for (let i = 0; i < str.length; i++) {
 for (const string of str) {
   console.log("string loop", string);
 }
+
+// for in loop
+
+const colorObj = {
+  color1: "red",
+  color2: "blue",
+  color3: "orange",
+  color4: "yellow",
+  color5: "pink",
+};
+
+for (const key in colorObj) {
+  console.log("colorObj", key, colorObj[key]);
+}
