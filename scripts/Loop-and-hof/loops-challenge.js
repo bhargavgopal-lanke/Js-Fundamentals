@@ -12,3 +12,25 @@ for (i = 0; i <= 100; i++) {
     console.log(i);
   }
 }
+
+// looping through the arrays.
+const items = ["book", "table", "chair", "kite"];
+
+for (const i of items) {
+  console.log("array output", i);
+}
+
+for (let i = 0; i < items.length; i++) {
+  console.log("array", items[i]);
+}
+
+// looping through the objects
+const users = [{ name: "Bhargav" }, { name: "Gopal" }, { name: "Steve" }];
+
+for (const user of users) {
+  console.log("object output", user.name);
+}
+
+for (let i = 0; i < users.length; i++) {
+  console.log("object", users[i].name);
+}
