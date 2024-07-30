@@ -60,3 +60,9 @@ const colorObj = {
 for (const key in colorObj) {
   console.log("colorObj", key, colorObj[key]);
 }
+
+const colorsArr = ["red", "green", "blue", "yellow"];
+
+for (const key in colorsArr) {
+  console.log("colorsArr1", colorsArr[key]);
+}
