@@ -11,10 +11,18 @@
 // To execute a `block` of code use the `{ }` syntax
 
 // basic for loop example
-for (let i = 0; i <= 11; i++) {
-  if (i === 7) {
-    console.log("7 is my lucy number");
-  } else {
-    console.log("Number " + i);
+// for (let i = 0; i <= 11; i++) {
+//   if (i === 7) {
+//     console.log("7 is my lucy number");
+//   } else {
+//     console.log("Number " + i);
+//   }
+// }
+
+// nested loops
+
+for (let i = 0; i <= 10; i++) {
+  for (let j = 0; j <= 5; j++) {
+    console.log(`${i} * ${j} = ${i * j}`);
   }
 }
