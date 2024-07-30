@@ -34,3 +34,15 @@ for (const user of users) {
 for (let i = 0; i < users.length; i++) {
   console.log("object", users[i].name);
 }
+
+// loop over strings
+
+const str = "Hello Bhargav";
+
+for (let i = 0; i < str.length; i++) {
+  console.log("i", str[i]);
+}
+
+for (const string of str) {
+  console.log("string loop", string);
+}
