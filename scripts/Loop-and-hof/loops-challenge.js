@@ -24,8 +24,14 @@ for (let i = 0; i < items.length; i++) {
   console.log("array", items[i]);
 }
 
-items.forEach((val) => {
-  return console.log("foreach array", val);
+items.forEach((val, index, arr) => {
+  return console.log(
+    "foreach array",
+    `
+   index value => ${index} -
+    val => ${val} - 
+   array => ${arr}`
+  );
 });
 
 // looping through the objects
@@ -74,4 +80,3 @@ const colorsArr = ["red", "green", "blue", "yellow"];
 for (const key in colorsArr) {
   console.log("colorsArr1", colorsArr[key]);
 }
-
