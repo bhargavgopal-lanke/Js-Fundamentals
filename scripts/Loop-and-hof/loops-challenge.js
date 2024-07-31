@@ -29,10 +29,17 @@ items.forEach((val, index, arr) => {
     "foreach array",
     `
    index value => ${index} -
-    val => ${val} - 
+    val => ${val} -
    array => ${arr}`
   );
 });
+
+// we can do the logic inside a function and pass it in the forEach method.
+function itemsFunction(item) {
+  return console.log("function items", item);
+}
+
+items.forEach(itemsFunction);
 
 // looping through the objects
 const users = [{ name: "Bhargav" }, { name: "Gopal" }, { name: "Steve" }];
