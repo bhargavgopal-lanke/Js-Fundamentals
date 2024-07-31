@@ -24,6 +24,10 @@ for (let i = 0; i < items.length; i++) {
   console.log("array", items[i]);
 }
 
+items.forEach((val) => {
+  return console.log("foreach array", val);
+});
+
 // looping through the objects
 const users = [{ name: "Bhargav" }, { name: "Gopal" }, { name: "Steve" }];
 
@@ -34,6 +38,10 @@ for (const user of users) {
 for (let i = 0; i < users.length; i++) {
   console.log("object", users[i].name);
 }
+
+users.forEach((val) => {
+  return console.log("foreach object", val.name);
+});
 
 // loop over strings
 
@@ -66,3 +74,4 @@ const colorsArr = ["red", "green", "blue", "yellow"];
 for (const key in colorsArr) {
   console.log("colorsArr1", colorsArr[key]);
 }
+
