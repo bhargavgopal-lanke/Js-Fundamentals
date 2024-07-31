@@ -15,3 +15,12 @@ const result = evenNumbers.forEach((nums) => {
 });
 
 console.log("evenNumbers1", evenNumbers1);
+
+// hof challenge
+const words = ["words", "programmer", "developer"];
+
+const capitalWords = words.map((val) => {
+  return val[0].toUpperCase() + val.slice(1, val.length);
+});
+
+console.log("capitalWords", capitalWords);
