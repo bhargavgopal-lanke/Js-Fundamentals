@@ -23,6 +23,7 @@ const person = {
   isMarried: false,
 };
 
+// update the name in another object
 const person2 = { ...person, name: "Gopal2" };
 
 console.log(person2);
