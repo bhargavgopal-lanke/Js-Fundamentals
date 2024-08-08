@@ -9,3 +9,8 @@ const personalInformation = {
 const { firstName: fn, lastName: ln } = personalInformation;
 
 console.log(`${fn}, ${ln}`);
+
+// array destructure
+const [one, two, three] = ['test', 'test1', 'test2']
+
+console.log(one, two, three)
