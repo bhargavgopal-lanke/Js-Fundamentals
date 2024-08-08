@@ -23,13 +23,13 @@ const person = {
   isMarried: false,
 };
 
-// update the name in another object
+// update the name in another object using spread operator
 const person2 = { ...person, name: "Gopal2" };
 
 console.log(person2);
 
 // add extra items to an array
-// using rest operator
+// using spread operator
 
 const names = ["Bhargav", "Gopal", "Lanke"];
 
