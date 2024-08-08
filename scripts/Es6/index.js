@@ -28,3 +28,11 @@ const person2 = { ...person, name: "Gopal2" };
 
 console.log(person2);
 
+// add extra items to an array
+// using rest operator
+
+const names = ["Bhargav", "Gopal", "Lanke"];
+
+const names2 = [...names, "suguna"];
+
+console.log(names2);
