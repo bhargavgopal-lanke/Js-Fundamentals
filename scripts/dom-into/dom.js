@@ -20,9 +20,13 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
   // className should be as it's it should be the same like how it's in HTML
-  if (section.className === "red-bg visbile") {
-    section.className = "red-bg invisbile";
-  } else {
-    section.className = "red-bg visbile";
-  }
+  // toggle using if else condition using className
+  // if (section.className === "red-bg visbile") {
+  //   section.className = "red-bg invisbile";
+  // } else {
+  //   section.className = "red-bg visbile";
+  // }
+  // hide and show using toggle method and classList
+  // simple way to hide and show something in js
+  section.classList.toggle("invisbile");
 });
