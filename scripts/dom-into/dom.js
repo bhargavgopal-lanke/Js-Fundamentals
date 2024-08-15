@@ -9,6 +9,7 @@ li.textContent += " (updated dynamically something!)";
 
 const listItems = document.getElementsByTagName("li");
 console.log("listItems1", listItems);
+
 for (const listItemEl of listItems) {
   console.dir(listItemEl);
 }
@@ -30,3 +31,4 @@ button.addEventListener("click", () => {
   // simple way to hide and show something in js
   section.classList.toggle("invisbile");
 });
+
