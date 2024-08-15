@@ -9,6 +9,6 @@ li.textContent += " (updated dynamically something!)";
 
 const listItems = document.getElementsByTagName("li");
 console.log("listItems1", listItems);
-for (const list of listItems) {
-  console.log("listItems", list);
+for (const listItemEl of listItems) {
+  console.dir(listItemEl);
 }
