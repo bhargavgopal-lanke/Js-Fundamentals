@@ -12,3 +12,17 @@ console.log("listItems1", listItems);
 for (const listItemEl of listItems) {
   console.dir(listItemEl);
 }
+
+const section = document.querySelector("section");
+const button = document.querySelector("button");
+
+// section.style.backgroundColor = "blue";
+
+button.addEventListener("click", () => {
+  // className should be as it's it should be the same like how it's in HTML
+  if (section.className === "red-bg visbile") {
+    section.className = "red-bg invisbile";
+  } else {
+    section.className = "red-bg visbile";
+  }
+});
