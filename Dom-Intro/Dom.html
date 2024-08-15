@@ -4,17 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Intro</title>
+    <style>
+      .red-bg {
+        background-color: red;
+        color: white;
+      }
+      .visible {
+        display: block;
+      }
+
+      .invisbile {
+        display: none;
+      }
+      .m-3 {
+        margin: 15px 0;
+      }
+      button {
+        padding: 5px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
 
     <h1>Some new title</h1>
+    <section class="red-bg visbile">
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </section>
+    <input type="text" value="default text" />
+    <div class="m-3">
+      <button>Toggle Visible</button>
+    </div>
 
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <input />
-    </ul>
     <script src="../scripts/dom-into/dom.js"></script>
   </body>
 </html>

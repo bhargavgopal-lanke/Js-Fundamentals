@@ -9,6 +9,26 @@ li.textContent += " (updated dynamically something!)";
 
 const listItems = document.getElementsByTagName("li");
 console.log("listItems1", listItems);
-for (const list of listItems) {
-  console.log("listItems", list);
+
+for (const listItemEl of listItems) {
+  console.dir(listItemEl);
 }
+
+const section = document.querySelector("section");
+const button = document.querySelector("button");
+
+// section.style.backgroundColor = "blue";
+
+button.addEventListener("click", () => {
+  // className should be as it's it should be the same like how it's in HTML
+  // toggle using if else condition using className
+  // if (section.className === "red-bg visbile") {
+  //   section.className = "red-bg invisbile";
+  // } else {
+  //   section.className = "red-bg visbile";
+  // }
+  // hide and show using toggle method and classList
+  // simple way to hide and show something in js
+  section.classList.toggle("invisbile");
+});
+
