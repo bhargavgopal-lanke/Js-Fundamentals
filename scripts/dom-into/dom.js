@@ -44,6 +44,9 @@ button.addEventListener("click", () => {
 const ul = document.querySelector("ul");
 const newLi = document.createElement("li");
 newLi.innerHTML += '<li class="list-item">New Item 4</li>';
-ul.appendChild(newLi);
+// ul.appendChild(newLi);
 
 
+// add new item before and after the last item 
+ul.lastElementChild.before(newLi);
+// ul.lastElementChild.after(newLi);
