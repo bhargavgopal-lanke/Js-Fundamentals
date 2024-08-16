@@ -30,5 +30,12 @@ button.addEventListener("click", () => {
   // hide and show using toggle method and classList
   // simple way to hide and show something in js
   section.classList.toggle("invisbile");
+  // to add a class using classList i dont have to worry about the whole string
+  // classList is an classes object.
+  if (section.classList.contains("new-class")) {
+    section.classList.remove("new-class");
+  } else {
+    section.classList.add("new-class");
+  }
 });
 
