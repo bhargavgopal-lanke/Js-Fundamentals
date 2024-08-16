@@ -39,3 +39,11 @@ button.addEventListener("click", () => {
   }
 });
 
+// list dom traversing
+
+const ul = document.querySelector("ul");
+const newLi = document.createElement("li");
+newLi.innerHTML += '<li class="list-item">New Item 4</li>';
+ul.appendChild(newLi);
+
+
