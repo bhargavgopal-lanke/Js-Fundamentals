@@ -46,7 +46,12 @@ const newLi = document.createElement("li");
 newLi.innerHTML += '<li class="list-item">New Item 4</li>';
 // ul.appendChild(newLi);
 
-
-// add new item before and after the last item 
+// add new item before and after the last item
 ul.lastElementChild.before(newLi);
 // ul.lastElementChild.after(newLi);
+
+// remove the list items
+
+const list = document.querySelectorAll("li");
+
+ul.parentElement.removeChild(list);
